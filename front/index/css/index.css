@@ -1,0 +1,483 @@
+
+.swiper {
+    width: 1920px;
+    margin: 0 auto;
+    height: 600px;
+  }
+  .bg1{background: url("../../../common/image/main_01.jpg") no-repeat center/cover;}
+  .bg2{background: url("../../../common/image/main_02.jpg") no-repeat center/cover;}
+  .bg3{background: url("../../../common/image/main_03.jpg") no-repeat center/cover;}
+  .bg4{background: url("../../../common/image/main_04.jpg") no-repeat center/cover;}
+  .bg5{background: url("../../../common/image/main_05.jpg") no-repeat center/cover;}
+
+  .swiper .swiper-pagination-bullet-active {background:yellow;} 
+  
+  .palk_story_box {
+    display: flex;
+    width: 1920px;
+    margin: 0 auto;
+  }
+  
+  .palk_story_left{
+    padding: 50px 0 40px;
+    width: 50%;
+    background: url("../../../common/image/main_sec1.jpg")no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 360px;
+  }
+
+  .palk_story_left span {
+    font-size: 50px;
+    font-weight: 900;
+    color : #071f60;
+  }
+
+  .palk_story_left p {
+    padding: 30px 0 40px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: #202020;
+  }
+
+  .palk_story_right{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .story_btn {
+      background: url("../../../common/image/new_transparent_icon.png");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      -webkit-transition: -webkit-transform 0.23s;
+      box-shadow : 0 0 10px rgba(0,0,0,.2);      
+  }
+     
+  .story_btn:hover {
+    border: 1px solid #071f60;
+    -webkit-transform: rotate(360deg) translateZ(0); 
+    background-image: url("../../../common/image/new_export.png") ;
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+
+  .palk_story_right {
+    padding: 50px 0 40px;
+    width: 50%;
+    background: url("../../../common/image/new_intro_bn.png")no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 80px;
+  }
+  
+  .palk_story_right span {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .palk_story_right p {
+    padding: 30px 0 40px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4em;
+    color : #c4cbde;
+  }
+  /**/
+  .desert_main_point {
+    max-width: 100%;
+    max-height: 100%;
+    transition: .8s ease;
+  }
+  
+  .palk_flash_box {
+    position: relative;
+    width: 1920px;
+    height: 600px;
+    margin: 0px auto;
+    overflow: hidden;
+  }
+
+  .palk_flash_box:hover .desert_main_point{
+    transform: scale(1.1);
+  }
+
+  .palk_flash_box .frash_coffee {
+      color: #6b4d30;
+      font-size: 50px;
+      font-weight: 900;
+      display: block;
+      position: absolute;
+      top: 40px;
+      left: 360px;
+    }
+
+  .palk_flash_box .frash_coffee:after {
+    content:"";
+    display: block;
+    margin-top: 10px;
+    width: 38px;
+    height: 2px;
+    background :#6b4d30;
+  }
+  
+  .palk_flash_box .frash_coffee_paragraph{
+    position: absolute;
+    top: 140px;
+    left: 360px;
+    display: block;
+    margin: 25px 0 260px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color : #202020;
+  }
+
+  .palk_flash_box .story_btn{
+    position: absolute;
+    bottom:  40px;
+    left: 360px;
+  }
+
+  .desert_modum_wrap{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+
+   /**/
+  .left_desert_point{
+    width: 100%;
+    height: 100%;
+    transition: .8s ease;
+  }
+
+  .left_desrt_box{
+    position: relative;
+    max-width: 1148px;
+    max-height: 600px;
+    overflow: hidden;
+  }
+
+  .left_desrt_box:hover .left_desert_point{
+    transform: scale(1.1);
+  }
+
+  .left_desrt_box .varios_beverage {
+    color: #071f60;
+    font-size: 50px;
+    font-weight: 900;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 360px;
+  }
+
+  .left_desrt_box .varios_beverage:after {
+    content:"";
+    display: block;
+    margin-top: 10px;
+    width: 38px;
+    height: 2px;
+    background :#071f60;
+  }
+
+  .left_desrt_box .varios_beverage_paragaph{
+    position: absolute;
+    top: 140px;
+    left: 360px;
+    display: block;
+    margin: 25px 0 260px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color : #202020;
+   }
+
+   .left_desrt_box .story_btn{
+    position: absolute;
+    bottom:  40px;
+    left: 360px;
+    }
+
+    /*right*/
+
+  .right_desert_point{
+    width: 100%;
+    height: 100%;
+    transition: .8s ease;
+   
+  }
+
+  .right_desrt_box{
+    position: relative;
+    max-width: 772px;
+    max-height: 600px;
+    margin: 0px auto;
+    overflow: hidden;
+  }
+
+  .right_desrt_box:hover .right_desert_point{
+    transform: scale(1.1);
+  }
+
+  .right_desrt_box .palk_cclno {
+    color: #071f60;
+    font-size: 50px;
+    font-weight: 900;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+  }
+
+  .right_desrt_box .palk_cclno:after {
+    content:"";
+    display: block;
+    margin-top: 10px;
+    width: 38px;
+    height: 2px;
+    background :#071f60;
+  }
+
+  .right_desrt_box .palk_cclno_paragaph{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    display: block;
+    margin: 25px 0 260px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color : #202020;
+   }
+
+   .right_desrt_box .story_btn{
+    position: absolute;
+    bottom:  40px;
+    left: 20px;
+    }
+
+    .palk_startups_wrap{
+      max-width: 1920px;
+      margin: 0 auto;
+    }
+
+    .palks_inner_wrap{
+      margin-top: 15px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .palks_left_startups  {
+      display: flex;
+      flex-direction: column;
+      margin: 0 15px ;
+    }
+
+    .palks_store_box{
+      border: 2px solid #071f60;
+      padding: 50px 135px 40px 40px ;
+      margin-bottom: 15px;
+    }
+
+    .palks_store_box span{
+      display: inline-block;
+      font-weight: 900;
+      font-size: 40px;
+      color :#071f60;
+      padding: 50px 0 15px;
+    }
+
+     .palks_store_box p {
+        font-size: 18px;
+        font-weight: 700;
+        color : #202020;
+        padding: 15px 0 90px;
+     }
+     
+     .input_container {
+       position: relative;
+       width: 320px;
+     }
+
+     .input_container .input_chat{
+      padding-left: 20px;
+      width: 100%;
+      height: 50px;
+      border: 2px solid #071f60;
+      font-size: 14px;
+     }
+
+     .input_container .dotbogi{
+        position: absolute;
+        width: 23px;
+        top: 15px;
+        right: 20px;
+      }
+
+      .palks_introduce_box{
+        position: relative;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        border: 2px solid #202020;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .palks_profile{
+        position: absolute;
+        width: 200px;
+        right: 0;
+        bottom: 0;
+      }
+
+      .palks_introduce_box span {
+        display: inline-block;
+        font-weight: 900;
+        font-size: 40px;
+        color :#071f60;
+        padding: 50px 0 15px;
+      }
+
+      .palks_introduce_box p {
+        font-size: 18px;
+        font-weight: 700;
+        color : #202020;
+        padding: 15px 0 90px;
+      }
+
+      .house_btn {
+        background: url("../../../common/image/house.png") no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transition: 0.35s;
+        box-shadow : 0 0 10px rgba(0,0,0,.2);
+      }
+
+      .house_btn:hover{
+        border: 1px solid #071f60;
+        background: url("../../../common/image/new_export.png") no-repeat center/cover  ;
+        width: 50px;
+        height: 50px;
+        display: block;
+      }
+
+
+      .right_icecream_point {
+        width: 100%;
+        height: 100%;
+        transition: .8s ease;
+      }
+
+      .palks_right_box {
+        position: relative;
+        max-width: 1045px;
+        max-height: 710px;
+        overflow: hidden;
+      }
+
+      .palks_right_box:hover .right_icecream_point{
+        transform: scale(1.1);
+      }
+
+      .palks_right_box .tasty_icecream {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 900;
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 40px;
+      }
+
+      .palks_right_box .tasty_icecream:after {
+        content:"";
+        display: block;
+        margin-top: 10px;
+        width: 38px;
+        height: 2px;
+        background :#fff;
+      }
+
+      .palks_right_box .tasty_icecream_paragraph{
+        position: absolute;
+        top: 140px;
+        left: 40px;
+        display: block;
+        margin: 81px 0 260px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.4em;
+        color : #fff;
+      }
+
+      .palks_right_box .story_btn{
+        position: absolute;
+        bottom:  40px;
+        left: 40px;
+      }
+
+      .palks_sns_wrap{
+        padding: 60px 60px 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1920px;
+        margin: 0 auto;
+      }
+
+      .palks_sns_wrap .palks_sns_title {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 3px;
+      }
+
+      .palks_sns_wrap .palks_sns_butitle{
+        margin: 10px 5px 0;
+        font-size: 16px;
+        color: #999;
+      }
+
+      .palks_sns_wrap .palks_sns_butitle::after{
+        content: "";
+        display: block;
+        width: 50px;
+        height: 1px;
+        margin: 30px auto;
+        background: #0e347e;
+      }
+
+      .sns_image_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+       .sns_face {
+        display: block;
+        background: url("../../../common/image/facebook_ico.png") no-repeat center/cover;
+        width: 35px;
+        height: 35px;
+        margin: 0px 10px;
+      }
+      
+      .sns_instagrem {
+        display: block;
+        background: url("../../../common/image/insta_ico.png") no-repeat center/cover;
+        width: 35px;
+        height: 35px;
+        padding: 0 15px;
+        margin: 0px 10px;
+      }
